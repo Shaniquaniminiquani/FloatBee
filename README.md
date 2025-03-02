@@ -23,23 +23,39 @@ This is the main use case FloatBee wishes to solve.
 - Force closes the script when MusicBee is no longer running.
 
 ## Visuals
-Here's an example of what the settings can look like:\
-![image](https://github.com/user-attachments/assets/4c594c3b-e03e-4448-a6ed-c1ca71ca70f3)\
-As well as its location and look of FloatBee with DarkMode enabled:\
+Here's an example of what the settings can look like:
+
+![image](https://github.com/user-attachments/assets/4c594c3b-e03e-4448-a6ed-c1ca71ca70f3)
+
+As well as its location and look of FloatBee with DarkMode enabled:
+
 ![image](https://github.com/user-attachments/assets/a27f2a84-e290-46c6-a352-3d51d52e6d57)
 
 ## Installation
   ### Precompiled :
-There are 2 ways to download the program, the first is to go to the latest [release](https://github.com/Shaniquaniminiquani/FloatBee/releases/tag/v0.4) and downloading the already precompiled exe (FloatBee.exe) The issue with this is that it may give you some warning due to me self signing on an external computer. Rest assured that the file is completely safe if it does, but it's something to keep in mind.
+There are 2 ways to download the program, the first is to go to the latest [release](https://github.com/Shaniquaniminiquani/FloatBee/releases/tag/v0.4) and downloading the already precompiled exe (FloatBee.exe).\
+The issue with this is that it may give you a one time warning due to me self signing on an external computer.\
+If you aren't familiar with the warning it may be unintuitive on how to continue from that point on.
+Essentially you need to hit "More info" and then "Run anyway". This prompt should only appear the very first time you install and I can assure you its completely safe and normal for unpublished executables to behave this way. The steps should look like this more or less:
+
+<img width="394" alt="Untitled" src="https://github.com/user-attachments/assets/a9140adb-a287-4771-91cc-68c29bf25087" />
+
+
   ### Compiling it yourself :
 The second way (which shouldn't give any starting warnings and is somewhat recommended) is to compile it yourself on your own machine. To do this you must first download AHK v1.1 from its official [site](https://www.autohotkey.com/).\
-After finishing the express installation you can either decide to download the .ahk from the latest [release](https://github.com/Shaniquaniminiquani/FloatBee/releases/tag/v0.4) or right-clicking your desktop and creating a new .ahk file.\
-![image](https://github.com/user-attachments/assets/ab2c8bc4-18a8-46aa-b165-ed7d0f665d68)\
+After finishing the express installation you can either decide to download the .ahk from the latest [release](https://github.com/Shaniquaniminiquani/FloatBee/releases/tag/v0.4) or right-clicking your desktop and creating a new .ahk file.
+
+![image](https://github.com/user-attachments/assets/ab2c8bc4-18a8-46aa-b165-ed7d0f665d68)
+
 Next, proceed to open it inside of any text editor (Notepad will work just fine) and copy the entire [source code](https://raw.githubusercontent.com/Shaniquaniminiquani/FloatBee/refs/heads/main/FloatBee.ahk) of the script inside, making sure to save.\
-Once this is done, you want to go into your MusicBee installation folder, navigating into the skins folder within it and copy-pasting the "MusicBee.ico" file inside into the directory the .ahk file you created earlier is in.\
-![image](https://github.com/user-attachments/assets/06e89b7c-01e5-4f2c-926e-f63f7568d941)\
-The last step is to simply right-click the .ahk file and selecting "Compile Script"\
-![image](https://github.com/user-attachments/assets/c97c3e33-e90d-471e-aebb-4618f0b4846e)\
+Once this is done, you want to go into your MusicBee installation folder, navigating into the skins folder within it and copy-pasting the "MusicBee.ico" file inside into the directory the .ahk file you created earlier is in.
+
+![image](https://github.com/user-attachments/assets/06e89b7c-01e5-4f2c-926e-f63f7568d941)
+
+The last step is to simply right-click the .ahk file and selecting "Compile Script"
+
+![image](https://github.com/user-attachments/assets/c97c3e33-e90d-471e-aebb-4618f0b4846e)
+
 And that's it, you're done. You can now delete the extra .ico and .ahk you had grabbed from earlier and run it to get the first time setup. You may also completely uninstall AHK at this point if you so choose; you only needed it to compile.
 
 Get the latest release [here](https://github.com/Shaniquaniminiquani/FloatBee/releases/tag/v0.4)\
